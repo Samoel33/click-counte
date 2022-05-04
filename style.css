@@ -1,0 +1,65 @@
+:root {
+    --lable-font: 1.8rem;
+    --error-font: 1.2rem;
+    /*COLORS */
+    --body: rgb(162, 158, 158);
+    --form: rgb(193, 167, 167);
+    --button: rgb(249, 155, 155);
+    --font-color: white;
+    --error-red: red;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    box-sizing: inherit;
+    font-family: sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--body);
+}
+
+.container {
+    max-width: 118rem;
+    margin: 1rem auto;
+    background-color: var(--form);
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-primary {
+    width: 10rem;
+    height: 3rem;
+    background-color: var(--button);
+    text-align: center;
+    border: none;
+    border-radius: 1rem;
+    color: var(--font-color);
+    font-size: var(--lable-font);
+}
+
+.btn-default {
+    width: 10rem;
+    height: 3rem;
+    text-align: center;
+    border: none;
+    border-radius: 1rem;
+    color: var(--button);
+    font-size: var(--lable-font);
+}
+
+.number {
+    margin: 2rem;
+    font-size: var(--lable-font);
+}
